@@ -45,7 +45,7 @@ with st.container():
     if empresa == 'HAPVIDA':
         c.image(r'./img/hapvida.png', width=300,output_format='auto')
     elif empresa == 'IBYTE':
-        c.image(r'./img/IBYTE.jpg', width=300,output_format='auto')
+        c.image(r'./img/ibyte.jpg', width=300,output_format='auto')
     elif empresa == 'NAGEM':
         c.image(r'./img/nagem.webp', width=300,output_format='auto')
 
