@@ -70,4 +70,4 @@ st.write('Quantidade de reclamações por Tempo')
 st.line_chart(data=df_filtrado['TEMPO'].value_counts())
 
 st.write('Quantidade de palavras por Reclamação')
-st.metric(label='Méida', value=int(df_filtrado['QT_PALAVRA'].mean()))
+st.metric(label='Média', value=int(df_filtrado['QT_PALAVRA'].mean()))
