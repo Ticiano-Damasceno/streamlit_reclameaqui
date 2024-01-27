@@ -7,9 +7,9 @@ import streamlit as st
 @st.cache_data
 def carregar_dados():
     # importando e tratando os dados
-    iByte = pd.read_csv('reclame aqui\\RECLAMEAQUI_IBYTE.csv')
-    HapVida = pd.read_csv(r'.\reclame aqui\reclameaqui_hapvida.csv')
-    Nagem = pd.read_csv(r'.\reclame aqui\reclameaqui_nagem.csv')
+    iByte = pd.read_csv(r'.\dados\RECLAMEAQUI_IBYTE.csv')
+    HapVida = pd.read_csv(r'.\dados\reclameaqui_hapvida.csv')
+    Nagem = pd.read_csv(r'.\dados\reclameaqui_nagem.csv')
 
     #definindo a empresa
     iByte['EMPRESA'] = 'IBYTE'
