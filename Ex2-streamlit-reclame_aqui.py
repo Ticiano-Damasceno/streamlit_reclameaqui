@@ -1,5 +1,6 @@
 import pandas as pd
 import streamlit as st
+import plotly
 
 #função carregar dados
 @st.cache_data
